@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50" width="200" height="50">
+  <!-- Left bracket -->
+  <path d="M8 10 L2 25 L8 40" stroke="#111827" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Right bracket -->
+  <path d="M32 10 L38 25 L32 40" stroke="#111827" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- B letter INSIDE brackets -->
+  <text x="11" y="32" font-family="'Outfit', sans-serif" font-weight="800" font-size="22" fill="#111827">B</text>
+
+  <!-- Divider line -->
+  <line x1="50" y1="12" x2="50" y2="38" stroke="#e5e7eb" stroke-width="1.5"/>
+
+  <!-- BALAJI text -->
+  <text x="60" y="29" font-family="'Clash Display', 'Outfit', sans-serif" font-weight="700" font-size="16" fill="#111827" letter-spacing="2">BALAJI</text>
+
+  <!-- Green pulsing dot -->
+  <circle cx="152" cy="26" r="4" fill="#22c55e">
+    <animate attributeName="r" values="4;5;4" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.7;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- dev text -->
+  <text x="161" y="30" font-family="'Inter', sans-serif" font-weight="500" font-size="11" fill="#6b7280" letter-spacing="1">dev</text>
+</svg>
