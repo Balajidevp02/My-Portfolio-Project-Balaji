@@ -161,8 +161,8 @@ cards.forEach(card => {
 
 function downloadCV() {
   const link = document.createElement("a");
-  link.href = "Assets/cv/Balaji_S_Designed_Resume.pdf (2).pdf";
-  link.download = "Balaji_S_Resume.pdf";
+  link.href = "Assets/cv/Balaji_S_Resume Updated.pdf";
+  link.download = "Balaji_S_Resume Updated.pdf";
 
   document.body.appendChild(link);
   link.click();
